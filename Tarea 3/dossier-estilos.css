@@ -1,0 +1,108 @@
+#pagina{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color: rgb(202, 247, 247);
+    text-align: center;
+    background-image: url(background.jpg); 
+    background-size: 150rem;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#trestrestres{
+    width: 300px;
+    border-radius: 100px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: aquamarine;
+}
+
+.encabezados-menores{
+    color: firebrick;
+    font-size: 20px;
+}
+
+.encabezados-menores:hover{
+    text-decoration: underline;
+}
+
+.escritura{
+    color: aliceblue;
+}
+
+p{
+    text-align: left;
+    color: aliceblue;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color:darkolivegreen
+}
+
+a:hover{
+    color: gold;
+}
+
+#pepe{
+    font-size: 25px;
+}
+
+#pie{
+    height: 55px;
+    line-height: 25px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+#plandetrabajo{
+    width: 500px;
+    box-shadow: 27px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#contactostyle{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+.div1{
+    display: none;
+}
+
+a:hover + .div1{
+    display: block;
+    font-size: 10px;
+}
+
+.colorcete{
+    color: darkolivegreen;
+    font-style: italic;
+}
